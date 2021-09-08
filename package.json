@@ -1,15 +1,20 @@
 {
   "name": "react-callback",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "author": "Tyson Skiba <tskiba@gmail.com>",
   "description": "Adds callback functionality for react dom in react 18 and above",
   "main": "es5/index.js",
   "module": "es6/index.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tyson-Skiba/react-callback.git"
+  },
   "sideEffects": false,
   "scripts": {
     "compile": "rimraf dist && tsc && tsc --build tsconfig.es5.json",
-    "release": "yarn compile && yarn copyfiles README.md dist && yarn copyfiles package.json"
+    "release": "yarn compile && yarn copyfiles README.md dist && yarn copyfiles package.json",
+    "semantic-release": "semantic-release"
   },
   "peerDependencies": {
     "react": "^16.2.0",
@@ -25,6 +30,7 @@
     "react": "^18.0.0-alpha-031abd24b-20210907",
     "react-dom": "^18.0.0-alpha-031abd24b-20210907",
     "rimraf": "^3.0.2",
-    "typescript": "^4.4.2"
+    "typescript": "^4.4.2",
+    "semantic-release": "^17.4.7"
   }
 }
