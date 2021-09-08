@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/Tyson-Skiba/react-callback/compare/v1.0.0...v1.0.1) (2021-09-08)
+
+
+### Bug Fixes
+
+* remove triple slash refrences to to react 18 types ([41cff1c](https://github.com/Tyson-Skiba/react-callback/commit/41cff1cdf49c2eb9d7c15047335b8f57bf6710e3))
+
 # 1.0.0 (2021-09-08)
 
 
