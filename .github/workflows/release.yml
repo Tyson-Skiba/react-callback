@@ -19,7 +19,8 @@ jobs:
       - name: Install dependencies
         run: yarn
       - name: Release
+        run: yarn release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: yarn release
+        
