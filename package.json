@@ -13,7 +13,7 @@
   "sideEffects": false,
   "scripts": {
     "compile": "rimraf dist && tsc && tsc --build tsconfig.es5.json",
-    "release": "yarn compile && semantic-release"
+    "release": "yarn compile && npx semantic-release"
   },
   "peerDependencies": {
     "react": "^16.2.0",
