@@ -1,5 +1,3 @@
-/// <reference types="react/next" />
-/// <reference types="react-dom/next" />
 import React from 'react'
 
 interface CallbackProps {
@@ -13,4 +11,3 @@ export const CallbackWrapper: React.FC<CallbackProps> = ({
 }) => callback
     ? <div ref={callback}>{ children }</div>
     : <>{ children }</>
-    
