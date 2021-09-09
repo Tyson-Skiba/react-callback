@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/Tyson-Skiba/react-callback/compare/v1.0.1...v1.1.0) (2021-09-09)
+
+
+### Bug Fixes
+
+* include dom types in the es5 variant of this package ([ed699ca](https://github.com/Tyson-Skiba/react-callback/commit/ed699ca2cf333961c0745645cbe6df7da579340e))
+
+
+### Features
+
+* remove html node after callback is run ([e7de6b0](https://github.com/Tyson-Skiba/react-callback/commit/e7de6b032ec21a64006b184fa55a036be5d4357d))
+
 ## [1.0.1](https://github.com/Tyson-Skiba/react-callback/compare/v1.0.0...v1.0.1) (2021-09-08)
 
 
